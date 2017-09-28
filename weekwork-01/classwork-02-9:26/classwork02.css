@@ -1,0 +1,46 @@
+
+/* body */
+body{
+	background-color: #f7f7f7;
+	margin:0;
+	padding:0;
+	font-family: "Georgia","Times New Roman","Times",serif;
+	color:#333333;
+}
+
+/* main header */
+h1{
+	text-align:center;
+	background-color: #454444;
+	padding:10px 10px;
+	margin:0;
+	color:white;
+}
+
+/* body section */
+.name{
+	margin-left: 25px;
+	font-size: 24px;
+}
+
+img{
+	float:left;
+	margin-left: 25px;
+}
+
+p{
+	float:left;
+	width:50%;
+	margin:15px 15px;
+	
+}
+
+.redlink{
+	color:#d21034;
+}
+
+/*contact info cention */
+.contactinfo{
+	float:left;
+	margin-left:15px;
+}

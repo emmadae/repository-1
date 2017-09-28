@@ -1,0 +1,66 @@
+
+/* main header logo */
+.header img{
+	width:15%;
+	height: 15%;
+	padding-left: 42%; 
+	padding-top:1%;
+	padding-bottom: 1%;
+}
+
+.header{
+	background-color: #525151;
+}
+
+/* website background color and font */
+body{
+	background-color: #bab5b4;
+	font-family:'Raleway', sans-serif;
+	color:white;
+}
+
+.title{
+    font-size: 24px;
+    text-align: center;
+    padding-top: .5%;
+    padding-bottom:.5%;
+}
+
+.main{
+	background-color: #525151;
+}
+
+#image{
+	width:30.5%;
+	height:30.5%;
+	padding:5px 10px;
+}
+
+.bio {
+	padding: 10px 20px;
+	text-align: left;
+}
+
+.bio a{
+	text-decoration: none;
+	color:black;
+}
+
+.bio a:hover {
+    @include transition(background, 0.25s);
+    color: white;
+    cursor: pointer;
+}
+
+.list-items{
+	padding: 5px 15px;
+}
+
+.video{
+	padding: 10px 20px 20px 20px;
+	text-align: center;
+	
+}
+
+
+

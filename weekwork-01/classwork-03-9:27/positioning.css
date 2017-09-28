@@ -1,0 +1,51 @@
+
+body{
+	margin: 0;
+	font-family: "georgia", "Times New Roman", sans-serif;
+}
+
+.main{
+	width:70%;
+	margin-left:15%;
+	margin-right:15%;
+}
+
+p{
+	line-height:30px;
+}
+
+#fixed-box{
+	background: #eee;
+	padding:15px;
+	position:fixed;
+	z-index:2;
+	height:18%;
+	width:17%;
+	text-align: center;
+	top:0;
+}
+
+#relative-box{
+	background: #eee;
+	padding:15px;
+	position:relative;
+	z-index:1;
+	height:175px;
+	width:100%;
+	text-align: center;
+}
+
+#absolute-box{
+	background: #888;
+	padding:20px;
+	height:75px;
+	width:17%;
+	position:absolute;
+	z-index:2;
+	text-align: center;
+	right:-30px;
+	bottom:0;
+
+}
+
+

@@ -1,0 +1,59 @@
+/* CENTER THE TEXT */
+h1{
+	text-align: center;
+}
+
+/* CHANGE THE TEXT COLOR */
+#red{
+	color:red;
+}
+
+#blue{
+	color:blue;
+}
+
+#green{
+	color:green;
+}
+
+#orange{
+	color:orange;
+}
+
+/*CHANGE TEXT SIZE */
+#big{
+	font-size: 30px;
+}
+
+#small{
+	font-size: 10px;
+}
+
+/*CENTER THIS TEXT*/
+#center{
+	text-align: center;
+}
+
+/*CHANGE THE WEIGHT */
+#bold{
+	font-weight: bold;
+}
+
+/*CHANGE THE TEXT*/
+#text{
+	font-family: cursive;
+}
+
+/* CLASS STYLING */
+.styledFont{
+	font-family: "Raleway", sans-serif;
+	background-color: #525151;
+	color:white;
+	font-size: 18px;
+	padding:3px 3px;
+}
+
+/*CHARGING THE BOARDER */
+#styledImage{
+	border: solid #525151 6px;
+}
