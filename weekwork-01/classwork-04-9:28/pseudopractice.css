@@ -1,0 +1,36 @@
+#nav ul{
+	float:left;
+}
+
+#nav li{
+	display: inline-block;
+	position: relative;
+	float:right;
+	margin-top: 50px;
+}
+
+#nav li a {
+	list-style-type: none;
+    text-decoration: none;
+	background-color: gray;
+    color: white;
+    padding:15px;
+    font-size: 24px;
+    font-family: "Raleway", sans-serif;
+    margin: 10px;
+}
+
+#nav li a:hover {
+    @include transition(background, 0.1s);
+    color:#4bd6aa;
+    background-color: white;
+    cursor: pointer;
+}
+
+#nav li a.focus {
+  	color:#4bd6aa;
+}
+
+#nav li a.active {
+  	color:black;
+}
